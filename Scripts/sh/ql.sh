@@ -93,8 +93,7 @@ docker_install() {
             touch /etc/docker/daemon.json
             echo '{
                 "registry-mirrors": [
-                    "https://yanyu.icu",
-                    "https://yanyuge.free.hr"
+                    "https://yanyuge.shop/"
                 ]
             }' | sudo tee /etc/docker/daemon.json
             echo "安装 docker 环境...安装完成!"
